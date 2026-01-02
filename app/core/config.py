@@ -3,8 +3,8 @@ from typing import List
 from urllib.parse import urlparse, urlunparse
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-# Get the project root directory (erp folder)
-_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+# Get the project root directory (flash-full folder)
+_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 _DEFAULT_SQLITE_PATH = os.path.join(_PROJECT_ROOT, "flash_erp.db")
 
 
